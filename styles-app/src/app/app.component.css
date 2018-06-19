@@ -1,15 +1,18 @@
+html, body {
+  height: 100%;
+}
 
 .red-button {
-    background:red;
+    background: tomato;
 }
 
 :host {
-    border: 2px solid dimgray;
+    border: 2px solid #cdcdcd;
     display: block;
     padding: 20px;
 }
 
 :host ::ng-deep h2 {
-    color: red;
+    color: tomato;
 }
 
