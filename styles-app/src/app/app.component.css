@@ -1,18 +1,23 @@
-html, body {
-  height: 100%;
-}
-
-.red-button {
-    background: tomato;
-}
-
 :host {
-    border: 2px solid #cdcdcd;
-    display: block;
-    padding: 20px;
+  background: linear-gradient(to bottom, #fceabb 0%,#fccd4d 91%,#fccd4d 91%,#fbdf93 100%);
+  border-left: 2px solid #cdcdcd;
+  border-right: 2px solid #cdcdcd;
+  display: flex;
+  flex: 1;
+  flex-flow: column nowrap;
+  justify-content: space-evenly;
+  padding: 20px;
 }
 
 :host ::ng-deep h2 {
-    color: tomato;
+  color: tomato;
+}
+
+/*button {*/
+  /*border-radius: 0.5rem;*/
+/*}*/
+
+.red-button {
+  background: tomato;
 }
 

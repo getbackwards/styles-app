@@ -1,4 +1,4 @@
-import {Component} from '@angular/core';
+import {Component, HostBinding} from '@angular/core';
 
 @Component({
     selector: 'app-root',
@@ -6,6 +6,8 @@ import {Component} from '@angular/core';
     templateUrl: './app.component.html'
 })
 export class AppComponent {
+
+  @HostBinding('class.app-root') true;
 
     stateFlag = false;
 
