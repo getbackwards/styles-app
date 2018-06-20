@@ -1,7 +1,5 @@
 :host {
   background: linear-gradient(to bottom, #fceabb 0%,#fccd4d 91%,#fccd4d 91%,#fbdf93 100%);
-  border-left: 2px solid #cdcdcd;
-  border-right: 2px solid #cdcdcd;
   display: flex;
   flex: 1;
   flex-flow: column nowrap;
@@ -13,9 +11,9 @@
   color: tomato;
 }
 
-/*button {*/
-  /*border-radius: 0.5rem;*/
-/*}*/
+button {
+  border-radius: 0.5rem;
+}
 
 .red-button {
   background: tomato;
